@@ -1,8 +1,10 @@
+#Roda toda a pipeline de uma vez.
+
 import subprocess
 
-print('Iniciando Download...')
+print('Iniciando pipeline...')
 subprocess.run(['python', 'extractor/download_data.py'])
-print('Transformando dados...')
+print('Executando download...')
 subprocess.run(['python', 'transform/transformar_csv.py'])
-print('Enviando dados ao MySQL...')
-print('Enviado com Sucesso!')
+print('Executando transformação e carga...')
+print('Pipeline finalizado com Sucesso!')
