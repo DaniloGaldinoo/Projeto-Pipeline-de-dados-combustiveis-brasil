@@ -1,3 +1,6 @@
-pandas
-mysql-connector-python
-requests
+# Bibliotecas utilizadas:
+  - pandas
+  - mysql-connector
+  - pathlib
+  - requests
+  - zipfile
